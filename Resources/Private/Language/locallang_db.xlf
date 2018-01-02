@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2018-01-02T13:44:48+01:00" product-name="swiper">
+    <header/>
+    <body>
+      <trans-unit id="tx_swiper_slide" xml:space="preserve">
+        <source>tx_swiper_slide</source>
+      </trans-unit>
+      <trans-unit id="tx_swiper_slide.tx_swiper_image" xml:space="preserve">
+        <source>Image</source>
+      </trans-unit>
+      <trans-unit id="tx_swiper_slide.tx_swiper_content" xml:space="preserve">
+        <source>Content</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_allowslidenext" xml:space="preserve">
+        <source>Allow Slide Next</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_allowslideprev" xml:space="preserve">
+        <source>Allow Slide Prev</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_allowtouchmove" xml:space="preserve">
+        <source>Allow Touch Move</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_autoheight" xml:space="preserve">
+        <source>Auto Height</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_centeredslides" xml:space="preserve">
+        <source>Centered Slides</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_direction" xml:space="preserve">
+        <source>Direction</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_effect" xml:space="preserve">
+        <source>Effect</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_followfinger" xml:space="preserve">
+        <source>Follow Finger</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_freemode" xml:space="preserve">
+        <source>Free Mode</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_freemodeminimumvelocity" xml:space="preserve">
+        <source>Free Mode Minimum Velocity</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_freemodemomentum" xml:space="preserve">
+        <source>Free Mode Momentum</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_freemodemomentumbounce" xml:space="preserve">
+        <source>Free Mode Momentum Bounce</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_freemodemomentumbounceratio" xml:space="preserve">
+        <source>Free Mode Momentum Bounce Ratio</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_freemodemomentumratio" xml:space="preserve">
+        <source>Free Mode Momentum Ratio</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_freemodemomentumvelocityratio" xml:space="preserve">
+        <source>free ModeMomentum Velocity Ratio</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_freemodesticky" xml:space="preserve">
+        <source>Free Mode Sticky</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_grabcursor" xml:space="preserve">
+        <source>Grab Cursor</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_height" xml:space="preserve">
+        <source>height</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_initialslide" xml:space="preserve">
+        <source>Initial Slide</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_iosedgeswipedetection" xml:space="preserve">
+        <source>iOS Edge Swipe Detection</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_iosedgeswipethreshold" xml:space="preserve">
+        <source>iOS Edge Swipe Threshold</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_longswipes" xml:space="preserve">
+        <source>Long Swipes</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_longswipesms" xml:space="preserve">
+        <source>Long Swipes Ms</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_longswipesratio" xml:space="preserve">
+        <source>Long Swipes Ratio</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_loop" xml:space="preserve">
+        <source>Loop</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_loopadditionalslides" xml:space="preserve">
+        <source>Loop Additional Slides</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_loopedslides" xml:space="preserve">
+        <source>Looped Slides</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_loopfillgroupwithblank" xml:space="preserve">
+        <source>Loop Fill Group With Blank</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_nested" xml:space="preserve">
+        <source>Nested</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_normalizeslideindex" xml:space="preserve">
+        <source>Normalize Slide Index</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_noswiping" xml:space="preserve">
+        <source>No Swiping</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_passivelisteners" xml:space="preserve">
+        <source>Passive Listeners</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_preloadimages" xml:space="preserve">
+        <source>Preload Images</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_preventclicks" xml:space="preserve">
+        <source>Prevent Clicks</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_preventclickspropagation" xml:space="preserve">
+        <source>Prevent Clicks Propagation</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_resistance" xml:space="preserve">
+        <source>Resistance</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_resistanceratio" xml:space="preserve">
+        <source>Resistance Ratio</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_roundlengths" xml:space="preserve">
+        <source>Round Lengths</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_runcallbacksoninit" xml:space="preserve">
+        <source>Run Callbacks On Init</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_setwrappersize" xml:space="preserve">
+        <source>Set Wrapper Size</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_shortswipes" xml:space="preserve">
+        <source>Short Swipes</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_simulatetouch" xml:space="preserve">
+        <source>Simulate Touch</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_slide" xml:space="preserve">
+        <source>Slide</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_slidesoffsetafter" xml:space="preserve">
+        <source>Slides Offset After</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_slidesoffsetbefore" xml:space="preserve">
+        <source>Slides Offset Before</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_slidespercolumn" xml:space="preserve">
+        <source>Slides Per Column</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_slidespercolumnfill" xml:space="preserve">
+        <source>Slides Per Column Fill</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_slidespergroup" xml:space="preserve">
+        <source>Slides Per Group</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_slidesperview" xml:space="preserve">
+        <source>Slides Per View</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_slidesperviewauto" xml:space="preserve">
+        <source>Slides Per View Auto</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_slidetoclickedslide" xml:space="preserve">
+        <source>Slide To Clicked Slide</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_spacebetween" xml:space="preserve">
+        <source>Space Between</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_speed" xml:space="preserve">
+        <source>Speed</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_threshold" xml:space="preserve">
+        <source>Threshold</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_touchangle" xml:space="preserve">
+        <source>Touch Angle</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_toucheventstarget" xml:space="preserve">
+        <source>Touch Events Target</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_touchmovestoppropagation" xml:space="preserve">
+        <source>Touch Move Stop Propagation</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_touchratio" xml:space="preserve">
+        <source>Touch Ratio</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_touchreleaseonedges" xml:space="preserve">
+        <source>Touch Release On Edges</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_uniquenavelements" xml:space="preserve">
+        <source>Unique Nav Elements</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_updateonimagesready" xml:space="preserve">
+        <source>Update On Images Ready</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_virtualtranslate" xml:space="preserve">
+        <source>Virtual Translate</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_watchslidesprogress" xml:space="preserve">
+        <source>Watch Slides Progress</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_watchslidesvisibility" xml:space="preserve">
+        <source>Watch Slides Visibility</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_swiper_width" xml:space="preserve">
+        <source>width</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.div._swiper_" xml:space="preserve">
+        <source>swiper</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.swiper_swiper" xml:space="preserve">
+        <source>Swiper Slider</source>
+      </trans-unit>
+      <trans-unit id="tt_content.colPos.nestedContentColPos" xml:space="preserve">
+        <source>Nested content (swiper)</source>
+      </trans-unit>
+      <trans-unit id="tt_content.l10n_source" xml:space="preserve">
+        <source>l10n_source</source>
+      </trans-unit>
+      <trans-unit id="tt_content.l18n_diffsource" xml:space="preserve">
+        <source>l18n_diffsource</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_impexp_origuid" xml:space="preserve">
+        <source>tx_impexp_origuid</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

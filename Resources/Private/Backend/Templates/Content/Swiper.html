@@ -1,0 +1,273 @@
+<f:if condition="{processedRow.tx_swiper_slide}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_slide" /></strong>
+<br><f:for each="{processedRow.tx_swiper_slide}" as="item">
+    <ul>
+        <li>
+            <f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tx_swiper_slide.tx_swiper_image" /> (id={item.uid})<br/>
+<f:for each="{item.tx_swiper_image}" as="item_item">
+    <ul>
+        <li>
+            <f:translate key="LLL:EXT:lang/Resources/Private/Language/locallang_tca.xlf:sys_file_reference.uid_local" /> {item_item.uid_local} (id={item_item.uid})<br/>
+        </li>
+    </ul>
+</f:for>
+        </li>
+    </ul>
+</f:for>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_initialslide}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_initialslide" /></strong>
+    {processedRow.tx_swiper_initialslide} (raw={row.tx_swiper_initialslide})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_direction}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_direction" /></strong>
+    {processedRow.tx_swiper_direction.0} (raw={row.tx_swiper_direction})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_speed}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_speed" /></strong>
+    {processedRow.tx_swiper_speed} (raw={row.tx_swiper_speed})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_setwrappersize}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_setwrappersize" /></strong>
+    {processedRow.tx_swiper_setwrappersize} (raw={row.tx_swiper_setwrappersize})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_virtualtranslate}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_virtualtranslate" /></strong>
+    {processedRow.tx_swiper_virtualtranslate} (raw={row.tx_swiper_virtualtranslate})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_width}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_width" /></strong>
+    {processedRow.tx_swiper_width} (raw={row.tx_swiper_width})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_height}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_height" /></strong>
+    {processedRow.tx_swiper_height} (raw={row.tx_swiper_height})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_autoheight}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_autoheight" /></strong>
+    {processedRow.tx_swiper_autoheight} (raw={row.tx_swiper_autoheight})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_roundlengths}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_roundlengths" /></strong>
+    {processedRow.tx_swiper_roundlengths} (raw={row.tx_swiper_roundlengths})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_nested}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_nested" /></strong>
+    {processedRow.tx_swiper_nested} (raw={row.tx_swiper_nested})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_uniquenavelements}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_uniquenavelements" /></strong>
+    {processedRow.tx_swiper_uniquenavelements} (raw={row.tx_swiper_uniquenavelements})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_effect}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_effect" /></strong>
+    {processedRow.tx_swiper_effect.0} (raw={row.tx_swiper_effect})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_runcallbacksoninit}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_runcallbacksoninit" /></strong>
+    {processedRow.tx_swiper_runcallbacksoninit} (raw={row.tx_swiper_runcallbacksoninit})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_spacebetween}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_spacebetween" /></strong>
+    {processedRow.tx_swiper_spacebetween} (raw={row.tx_swiper_spacebetween})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_slidesperviewauto}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_slidesperviewauto" /></strong>
+    {processedRow.tx_swiper_slidesperviewauto} (raw={row.tx_swiper_slidesperviewauto})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_slidesperview}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_slidesperview" /></strong>
+    {processedRow.tx_swiper_slidesperview} (raw={row.tx_swiper_slidesperview})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_slidespercolumn}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_slidespercolumn" /></strong>
+    {processedRow.tx_swiper_slidespercolumn} (raw={row.tx_swiper_slidespercolumn})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_slidespercolumnfill}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_slidespercolumnfill" /></strong>
+    {processedRow.tx_swiper_slidespercolumnfill.0} (raw={row.tx_swiper_slidespercolumnfill})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_slidespergroup}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_slidespergroup" /></strong>
+    {processedRow.tx_swiper_slidespergroup} (raw={row.tx_swiper_slidespergroup})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_centeredslides}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_centeredslides" /></strong>
+    {processedRow.tx_swiper_centeredslides} (raw={row.tx_swiper_centeredslides})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_slidesoffsetbefore}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_slidesoffsetbefore" /></strong>
+    {processedRow.tx_swiper_slidesoffsetbefore} (raw={row.tx_swiper_slidesoffsetbefore})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_slidesoffsetafter}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_slidesoffsetafter" /></strong>
+    {processedRow.tx_swiper_slidesoffsetafter} (raw={row.tx_swiper_slidesoffsetafter})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_normalizeslideindex}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_normalizeslideindex" /></strong>
+    {processedRow.tx_swiper_normalizeslideindex} (raw={row.tx_swiper_normalizeslideindex})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_grabcursor}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_grabcursor" /></strong>
+    {processedRow.tx_swiper_grabcursor} (raw={row.tx_swiper_grabcursor})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_toucheventstarget}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_toucheventstarget" /></strong>
+    {processedRow.tx_swiper_toucheventstarget.0} (raw={row.tx_swiper_toucheventstarget})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_touchratio}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_touchratio" /></strong>
+    {processedRow.tx_swiper_touchratio} (raw={row.tx_swiper_touchratio})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_touchangle}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_touchangle" /></strong>
+    {processedRow.tx_swiper_touchangle} (raw={row.tx_swiper_touchangle})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_simulatetouch}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_simulatetouch" /></strong>
+    {processedRow.tx_swiper_simulatetouch} (raw={row.tx_swiper_simulatetouch})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_shortswipes}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_shortswipes" /></strong>
+    {processedRow.tx_swiper_shortswipes} (raw={row.tx_swiper_shortswipes})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_longswipes}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_longswipes" /></strong>
+    {processedRow.tx_swiper_longswipes} (raw={row.tx_swiper_longswipes})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_longswipesratio}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_longswipesratio" /></strong>
+    {processedRow.tx_swiper_longswipesratio} (raw={row.tx_swiper_longswipesratio})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_longswipesms}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_longswipesms" /></strong>
+    {processedRow.tx_swiper_longswipesms} (raw={row.tx_swiper_longswipesms})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_followfinger}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_followfinger" /></strong>
+    {processedRow.tx_swiper_followfinger} (raw={row.tx_swiper_followfinger})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_allowtouchmove}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_allowtouchmove" /></strong>
+    {processedRow.tx_swiper_allowtouchmove} (raw={row.tx_swiper_allowtouchmove})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_threshold}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_threshold" /></strong>
+    {processedRow.tx_swiper_threshold} (raw={row.tx_swiper_threshold})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_touchmovestoppropagation}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_touchmovestoppropagation" /></strong>
+    {processedRow.tx_swiper_touchmovestoppropagation} (raw={row.tx_swiper_touchmovestoppropagation})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_iosedgeswipedetection}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_iosedgeswipedetection" /></strong>
+    {processedRow.tx_swiper_iosedgeswipedetection} (raw={row.tx_swiper_iosedgeswipedetection})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_iosedgeswipethreshold}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_iosedgeswipethreshold" /></strong>
+    {processedRow.tx_swiper_iosedgeswipethreshold} (raw={row.tx_swiper_iosedgeswipethreshold})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_touchreleaseonedges}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_touchreleaseonedges" /></strong>
+    {processedRow.tx_swiper_touchreleaseonedges} (raw={row.tx_swiper_touchreleaseonedges})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_passivelisteners}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_passivelisteners" /></strong>
+    {processedRow.tx_swiper_passivelisteners} (raw={row.tx_swiper_passivelisteners})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_resistance}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_resistance" /></strong>
+    {processedRow.tx_swiper_resistance} (raw={row.tx_swiper_resistance})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_resistanceratio}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_resistanceratio" /></strong>
+    {processedRow.tx_swiper_resistanceratio} (raw={row.tx_swiper_resistanceratio})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_allowslideprev}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_allowslideprev" /></strong>
+    {processedRow.tx_swiper_allowslideprev} (raw={row.tx_swiper_allowslideprev})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_allowslidenext}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_allowslidenext" /></strong>
+    {processedRow.tx_swiper_allowslidenext} (raw={row.tx_swiper_allowslidenext})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_noswiping}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_noswiping" /></strong>
+    {processedRow.tx_swiper_noswiping} (raw={row.tx_swiper_noswiping})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_preventclicks}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_preventclicks" /></strong>
+    {processedRow.tx_swiper_preventclicks} (raw={row.tx_swiper_preventclicks})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_preventclickspropagation}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_preventclickspropagation" /></strong>
+    {processedRow.tx_swiper_preventclickspropagation} (raw={row.tx_swiper_preventclickspropagation})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_slidetoclickedslide}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_slidetoclickedslide" /></strong>
+    {processedRow.tx_swiper_slidetoclickedslide} (raw={row.tx_swiper_slidetoclickedslide})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_freemode}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_freemode" /></strong>
+    {processedRow.tx_swiper_freemode} (raw={row.tx_swiper_freemode})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_freemodemomentum}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_freemodemomentum" /></strong>
+    {processedRow.tx_swiper_freemodemomentum} (raw={row.tx_swiper_freemodemomentum})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_freemodemomentumratio}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_freemodemomentumratio" /></strong>
+    {processedRow.tx_swiper_freemodemomentumratio} (raw={row.tx_swiper_freemodemomentumratio})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_freemodemomentumvelocityratio}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_freemodemomentumvelocityratio" /></strong>
+    {processedRow.tx_swiper_freemodemomentumvelocityratio} (raw={row.tx_swiper_freemodemomentumvelocityratio})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_freemodemomentumbounce}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_freemodemomentumbounce" /></strong>
+    {processedRow.tx_swiper_freemodemomentumbounce} (raw={row.tx_swiper_freemodemomentumbounce})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_freemodemomentumbounceratio}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_freemodemomentumbounceratio" /></strong>
+    {processedRow.tx_swiper_freemodemomentumbounceratio} (raw={row.tx_swiper_freemodemomentumbounceratio})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_freemodeminimumvelocity}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_freemodeminimumvelocity" /></strong>
+    {processedRow.tx_swiper_freemodeminimumvelocity} (raw={row.tx_swiper_freemodeminimumvelocity})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_freemodesticky}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_freemodesticky" /></strong>
+    {processedRow.tx_swiper_freemodesticky} (raw={row.tx_swiper_freemodesticky})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_watchslidesprogress}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_watchslidesprogress" /></strong>
+    {processedRow.tx_swiper_watchslidesprogress} (raw={row.tx_swiper_watchslidesprogress})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_watchslidesvisibility}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_watchslidesvisibility" /></strong>
+    {processedRow.tx_swiper_watchslidesvisibility} (raw={row.tx_swiper_watchslidesvisibility})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_preloadimages}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_preloadimages" /></strong>
+    {processedRow.tx_swiper_preloadimages} (raw={row.tx_swiper_preloadimages})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_updateonimagesready}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_updateonimagesready" /></strong>
+    {processedRow.tx_swiper_updateonimagesready} (raw={row.tx_swiper_updateonimagesready})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_loop}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_loop" /></strong>
+    {processedRow.tx_swiper_loop} (raw={row.tx_swiper_loop})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_loopadditionalslides}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_loopadditionalslides" /></strong>
+    {processedRow.tx_swiper_loopadditionalslides} (raw={row.tx_swiper_loopadditionalslides})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_loopedslides}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_loopedslides" /></strong>
+    {processedRow.tx_swiper_loopedslides} (raw={row.tx_swiper_loopedslides})<br>
+</f:if>
+<f:if condition="{processedRow.tx_swiper_loopfillgroupwithblank}">
+    <strong><f:translate key="LLL:EXT:swiper/Resources/Private/Language/locallang_db.xlf:tt_content.tx_swiper_loopfillgroupwithblank" /></strong>
+    {processedRow.tx_swiper_loopfillgroupwithblank} (raw={row.tx_swiper_loopfillgroupwithblank})<br>
+</f:if>

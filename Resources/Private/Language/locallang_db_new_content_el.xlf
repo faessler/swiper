@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2018-01-02T13:44:48+01:00" product-name="swiper">
+    <header/>
+    <body>
+      <trans-unit id="wizards.newContentElement.swiper_title" xml:space="preserve">
+        <source>Swiper Slider</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.swiper_description" xml:space="preserve">
+        <source>Content element to create a simple image slider</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
