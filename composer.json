@@ -1,0 +1,25 @@
+{
+    "name": "SWIPER/swiper",
+    "description": "TYPO3 Image Slider Extension based on Swiper Slider from iDangero.us",
+    "homepage": "http://idangero.us/swiper/",
+
+    "type": "typo3-cms-extension",
+
+    "authors": [
+        {
+            "name": "Jan Fässler",
+            "role": "Developer",
+            "email": "jan@faessler.be"
+        }
+    ],
+
+    "require": {
+        "typo3/cms-core": ">=7.6.0,<8.99.99"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "SWIPER\\swiper\\": "Classes"
+        }
+    }
+}
