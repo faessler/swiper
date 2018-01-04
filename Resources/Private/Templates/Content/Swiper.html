@@ -1,493 +1,514 @@
-<f:if condition="{data_tx_swiper_slide}">
-    <ul>
-        <f:for each="{data_tx_swiper_slide}" as="data_item">
-            <li>
-                <f:if condition="{data_item.data_tx_swiper_image}">
-    <f:for each="{data_item.data_tx_swiper_image}" as="file">
-        <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="200" /><br />
-        {file.description} / {file.identifier}<br />
-    </f:for>
-</f:if>
-
-<f:if condition="{data_item.data_tx_swiper_content}">
-    <f:for each="{data_item.data_tx_swiper_content}" as="content_item">
-        <f:cObject typoscriptObjectPath="tt_content" data="{content_item.data}" table="tt_content" /><br />
-    </f:for>
-</f:if>
-
-<f:if condition"{data_item.data.tx_swiper_noswiping}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-
-            </li>
-        </f:for>
-    </ul>
-</f:if>
-
-<f:if condition="{data.tx_swiper_settings}">
-    {data.tx_swiper_settings}<br />
-</f:if>
-
-<f:if condition="{data.tx_swiper_initialslide}">
-    {data.tx_swiper_initialslide}<br />
-</f:if>
-
-<f:if condition="{data.tx_swiper_direction}">
-    <f:switch expression="{data.tx_swiper_direction}">
-        <f:case value="1">Value is: 1</f:case>
-        <f:case value="2">Value is: 2</f:case>
-        <f:case value="3">Value is: 3</f:case>
-    </f:switch><br />
-</f:if>
-
-<f:if condition="{data.tx_swiper_speed}">
-    {data.tx_swiper_speed}<br />
-</f:if>
-
-<f:if condition"{data.tx_swiper_setwrappersize}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_virtualtranslate}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition="{data.tx_swiper_width}">
-    {data.tx_swiper_width}<br />
-</f:if>
-
-<f:if condition="{data.tx_swiper_height}">
-    {data.tx_swiper_height}<br />
-</f:if>
-
-<f:if condition"{data.tx_swiper_autoheight}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_roundlengths}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_nested}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_uniquenavelements}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition="{data.tx_swiper_effect}">
-    <f:switch expression="{data.tx_swiper_effect}">
-        <f:case value="1">Value is: 1</f:case>
-        <f:case value="2">Value is: 2</f:case>
-        <f:case value="3">Value is: 3</f:case>
-    </f:switch><br />
-</f:if>
-
-<f:if condition"{data.tx_swiper_runcallbacksoninit}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition="{data.tx_swiper_spacebetween}">
-    {data.tx_swiper_spacebetween}<br />
-</f:if>
-
-<f:if condition"{data.tx_swiper_slidesperviewauto}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition="{data.tx_swiper_slidesperview}">
-    {data.tx_swiper_slidesperview}<br />
-</f:if>
-
-<f:if condition="{data.tx_swiper_slidespercolumn}">
-    {data.tx_swiper_slidespercolumn}<br />
-</f:if>
-
-<f:if condition="{data.tx_swiper_slidespercolumnfill}">
-    <f:switch expression="{data.tx_swiper_slidespercolumnfill}">
-        <f:case value="1">Value is: 1</f:case>
-        <f:case value="2">Value is: 2</f:case>
-        <f:case value="3">Value is: 3</f:case>
-    </f:switch><br />
-</f:if>
-
-<f:if condition="{data.tx_swiper_slidespergroup}">
-    {data.tx_swiper_slidespergroup}<br />
-</f:if>
-
-<f:if condition"{data.tx_swiper_centeredslides}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition="{data.tx_swiper_slidesoffsetbefore}">
-    {data.tx_swiper_slidesoffsetbefore}<br />
-</f:if>
-
-<f:if condition="{data.tx_swiper_slidesoffsetafter}">
-    {data.tx_swiper_slidesoffsetafter}<br />
-</f:if>
-
-<f:if condition"{data.tx_swiper_normalizeslideindex}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_grabcursor}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition="{data.tx_swiper_toucheventstarget}">
-    <f:switch expression="{data.tx_swiper_toucheventstarget}">
-        <f:case value="1">Value is: 1</f:case>
-        <f:case value="2">Value is: 2</f:case>
-        <f:case value="3">Value is: 3</f:case>
-    </f:switch><br />
-</f:if>
-
-<f:if condition="{data.tx_swiper_touchratio}">
-    {data.tx_swiper_touchratio}<br />
-</f:if>
-
-<f:if condition="{data.tx_swiper_touchangle}">
-    {data.tx_swiper_touchangle}<br />
-</f:if>
-
-<f:if condition"{data.tx_swiper_simulatetouch}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_shortswipes}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_longswipes}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition="{data.tx_swiper_longswipesratio}">
-    <f:format.number decimals="2" decimalSeparator="," thousandsSeparator=".">{data.tx_swiper_longswipesratio}</f:format.number><br />
-</f:if>
-
-<f:if condition="{data.tx_swiper_longswipesms}">
-    {data.tx_swiper_longswipesms}<br />
-</f:if>
-
-<f:if condition"{data.tx_swiper_followfinger}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_allowtouchmove}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition="{data.tx_swiper_threshold}">
-    {data.tx_swiper_threshold}<br />
-</f:if>
-
-<f:if condition"{data.tx_swiper_touchmovestoppropagation}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_iosedgeswipedetection}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition="{data.tx_swiper_iosedgeswipethreshold}">
-    {data.tx_swiper_iosedgeswipethreshold}<br />
-</f:if>
-
-<f:if condition"{data.tx_swiper_touchreleaseonedges}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_passivelisteners}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_resistance}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition="{data.tx_swiper_resistanceratio}">
-    <f:format.number decimals="2" decimalSeparator="," thousandsSeparator=".">{data.tx_swiper_resistanceratio}</f:format.number><br />
-</f:if>
-
-<f:if condition"{data.tx_swiper_allowslideprev}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_allowslidenext}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_noswiping}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_preventclicks}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_preventclickspropagation}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_slidetoclickedslide}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_freemode}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_freemodemomentum}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition="{data.tx_swiper_freemodemomentumratio}">
-    {data.tx_swiper_freemodemomentumratio}<br />
-</f:if>
-
-<f:if condition="{data.tx_swiper_freemodemomentumvelocityratio}">
-    {data.tx_swiper_freemodemomentumvelocityratio}<br />
-</f:if>
-
-<f:if condition"{data.tx_swiper_freemodemomentumbounce}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition="{data.tx_swiper_freemodemomentumbounceratio}">
-    {data.tx_swiper_freemodemomentumbounceratio}<br />
-</f:if>
-
-<f:if condition="{data.tx_swiper_freemodeminimumvelocity}">
-    <f:format.number decimals="2" decimalSeparator="," thousandsSeparator=".">{data.tx_swiper_freemodeminimumvelocity}</f:format.number><br />
-</f:if>
-
-<f:if condition"{data.tx_swiper_freemodesticky}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_watchslidesprogress}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_watchslidesvisibility}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_preloadimages}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_updateonimagesready}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition"{data.tx_swiper_loop}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
-<f:if condition="{data.tx_swiper_loopadditionalslides}">
-    {data.tx_swiper_loopadditionalslides}<br />
-</f:if>
-
-<f:if condition="{data.tx_swiper_loopedslides}">
-    {data.tx_swiper_loopedslides}<br />
-</f:if>
-
-<f:if condition"{data.tx_swiper_loopfillgroupwithblank}">
-    <f:then>
-        On<br />
-    </f:then>
-    <f:else>
-        Off<br />
-     </f:else>
-</f:if>
-
+<!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
+
+
+
+<f:comment>
+    <f:if condition="{data_tx_swiper_slide}">
+        <ul>
+            <f:for each="{data_tx_swiper_slide}" as="data_item">
+                <li>
+                    <f:if condition="{data_item.data_tx_swiper_image}">
+                        <f:for each="{data_item.data_tx_swiper_image}" as="file">
+                            <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="200" /><br />
+                            {file.description} / {file.identifier}<br />
+                        </f:for>
+                    </f:if>
+
+                    <f:if condition="{data_item.data_tx_swiper_content}">
+                        <f:for each="{data_item.data_tx_swiper_content}" as="content_item">
+                            <f:cObject typoscriptObjectPath="tt_content" data="{content_item.data}" table="tt_content" /><br />
+                        </f:for>
+                    </f:if>
+
+                    <f:if condition"{data_item.data.tx_swiper_noswiping}">
+                        <f:then>
+                            On<br />
+                        </f:then>
+                        <f:else>
+                            Off<br />
+                         </f:else>
+                    </f:if>
+                </li>
+            </f:for>
+        </ul>
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_settings}">
+        {data.tx_swiper_settings}<br />
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_initialslide}">
+        {data.tx_swiper_initialslide}<br />
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_direction}">
+        <f:switch expression="{data.tx_swiper_direction}">
+            <f:case value="1">Value is: 1</f:case>
+            <f:case value="2">Value is: 2</f:case>
+            <f:case value="3">Value is: 3</f:case>
+        </f:switch><br />
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_speed}">
+        {data.tx_swiper_speed}<br />
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_setwrappersize}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_virtualtranslate}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_width}">
+        {data.tx_swiper_width}<br />
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_height}">
+        {data.tx_swiper_height}<br />
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_autoheight}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_roundlengths}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_nested}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_uniquenavelements}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_effect}">
+        <f:switch expression="{data.tx_swiper_effect}">
+            <f:case value="1">Value is: 1</f:case>
+            <f:case value="2">Value is: 2</f:case>
+            <f:case value="3">Value is: 3</f:case>
+        </f:switch><br />
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_runcallbacksoninit}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_spacebetween}">
+        {data.tx_swiper_spacebetween}<br />
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_slidesperviewauto}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_slidesperview}">
+        {data.tx_swiper_slidesperview}<br />
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_slidespercolumn}">
+        {data.tx_swiper_slidespercolumn}<br />
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_slidespercolumnfill}">
+        <f:switch expression="{data.tx_swiper_slidespercolumnfill}">
+            <f:case value="1">Value is: 1</f:case>
+            <f:case value="2">Value is: 2</f:case>
+            <f:case value="3">Value is: 3</f:case>
+        </f:switch><br />
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_slidespergroup}">
+        {data.tx_swiper_slidespergroup}<br />
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_centeredslides}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_slidesoffsetbefore}">
+        {data.tx_swiper_slidesoffsetbefore}<br />
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_slidesoffsetafter}">
+        {data.tx_swiper_slidesoffsetafter}<br />
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_normalizeslideindex}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_grabcursor}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_toucheventstarget}">
+        <f:switch expression="{data.tx_swiper_toucheventstarget}">
+            <f:case value="1">Value is: 1</f:case>
+            <f:case value="2">Value is: 2</f:case>
+            <f:case value="3">Value is: 3</f:case>
+        </f:switch><br />
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_touchratio}">
+        {data.tx_swiper_touchratio}<br />
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_touchangle}">
+        {data.tx_swiper_touchangle}<br />
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_simulatetouch}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_shortswipes}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_longswipes}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_longswipesratio}">
+        <f:format.number decimals="2" decimalSeparator="," thousandsSeparator=".">{data.tx_swiper_longswipesratio}</f:format.number><br />
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_longswipesms}">
+        {data.tx_swiper_longswipesms}<br />
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_followfinger}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_allowtouchmove}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_threshold}">
+        {data.tx_swiper_threshold}<br />
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_touchmovestoppropagation}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_iosedgeswipedetection}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_iosedgeswipethreshold}">
+        {data.tx_swiper_iosedgeswipethreshold}<br />
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_touchreleaseonedges}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_passivelisteners}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_resistance}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_resistanceratio}">
+        <f:format.number decimals="2" decimalSeparator="," thousandsSeparator=".">{data.tx_swiper_resistanceratio}</f:format.number><br />
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_allowslideprev}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_allowslidenext}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_noswiping}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_preventclicks}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_preventclickspropagation}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_slidetoclickedslide}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_freemode}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_freemodemomentum}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_freemodemomentumratio}">
+        {data.tx_swiper_freemodemomentumratio}<br />
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_freemodemomentumvelocityratio}">
+        {data.tx_swiper_freemodemomentumvelocityratio}<br />
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_freemodemomentumbounce}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_freemodemomentumbounceratio}">
+        {data.tx_swiper_freemodemomentumbounceratio}<br />
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_freemodeminimumvelocity}">
+        <f:format.number decimals="2" decimalSeparator="," thousandsSeparator=".">{data.tx_swiper_freemodeminimumvelocity}</f:format.number><br />
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_freemodesticky}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_watchslidesprogress}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_watchslidesvisibility}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_preloadimages}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_updateonimagesready}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_loop}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_loopadditionalslides}">
+        {data.tx_swiper_loopadditionalslides}<br />
+    </f:if>
+
+    <f:if condition="{data.tx_swiper_loopedslides}">
+        {data.tx_swiper_loopedslides}<br />
+    </f:if>
+
+    <f:if condition"{data.tx_swiper_loopfillgroupwithblank}">
+        <f:then>
+            On<br />
+        </f:then>
+        <f:else>
+            Off<br />
+         </f:else>
+    </f:if>
+</f:comment>
